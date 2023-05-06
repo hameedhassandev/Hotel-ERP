@@ -1,0 +1,70 @@
+﻿@model IEnumerable<MVC.ViewModels.ReportAllRooms>
+
+@{
+    ViewData["Title"] = "Report All Rooms";
+}
+
+<h3>Report All Rooms</h3>
+<hr />
+<table class="table">
+    <thead>
+        <tr>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.brancheName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.branchLocation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RoomNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FloorNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NoOfBeds)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PricePerDay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsAvaliable)
+            </th>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+       
+            <td>
+                @Html.DisplayFor(modelItem => item.brancheName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.branchLocation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoomNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FloorNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoOfBeds)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PricePerDay)
+            </td>
+
+                @if (item.IsAvaliable == true)
+                {
+                    <td style="color:white;background-color:green;text-align:center;border-radius:20px">Available</td>
+                }else{
+                    <td style="color:white;background-color:red;text-align:center;border-radius:20px">Not Available</td>
+
+                }
+            
+           
+        </tr>
+}
+    </tbody>
+</table>

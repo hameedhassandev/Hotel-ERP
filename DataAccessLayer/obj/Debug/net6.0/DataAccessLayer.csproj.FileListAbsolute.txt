@@ -1,0 +1,12 @@
+D:\csharpcode\Hotel-Three-Tier\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+D:\csharpcode\Hotel-Three-Tier\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+D:\csharpcode\Hotel-Three-Tier\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+D:\csharpcode\Hotel-Three-Tier\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\csharpcode\Hotel-Three-Tier\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\csharpcode\Hotel-Three-Tier\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\csharpcode\Hotel-Three-Tier\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+D:\csharpcode\Hotel-Three-Tier\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\csharpcode\Hotel-Three-Tier\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+D:\csharpcode\Hotel-Three-Tier\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+D:\csharpcode\Hotel-Three-Tier\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+D:\csharpcode\Hotel-Three-Tier\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
