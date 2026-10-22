@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CrmConnections xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ByPassProxyOnLocal>false</ByPassProxyOnLocal>
+  <Connections>
+    <ConnectionDetail>
+      <AuthType>ActiveDirectory</AuthType>
+      <AzureAdAppId>00000000-0000-0000-0000-000000000000</AzureAdAppId>
+      <BrowserName>None</BrowserName>
+      <ConnectionId>40ae3693-6c80-416b-a23b-43d8c79a2508</ConnectionId>
+      <ConnectionName>Delivery PARs QC</ConnectionName>
+      <HomeRealmUrl />
+      <IsCustomAuth>true</IsCustomAuth>
+      <IsFromSdkLoginCtrl>false</IsFromSdkLoginCtrl>
+      <LastUsedOn>0001-01-01 00:00:00</LastUsedOn>
+      <NewAuthType>AD</NewAuthType>
+      <Organization>DeliveryPARsQC</Organization>
+      <OrganizationDataServiceUrl>https://deliveryparsqc.linkdev.com/XRMServices/2011/OrganizationData.svc</OrganizationDataServiceUrl>
+      <OrganizationFriendlyName>DeliveryPARsQC</OrganizationFriendlyName>
+      <OrganizationServiceUrl>https://deliveryparsqc.linkdev.com/XRMServices/2011/Organization.svc</OrganizationServiceUrl>
+      <OrganizationUrlName>deliveryparsqc</OrganizationUrlName>
+      <OrganizationVersion>9.1.23.10</OrganizationVersion>
+      <OriginalUrl>https://deliveryparsqc.linkdev.com/</OriginalUrl>
+      <SavePassword>true</SavePassword>
+      <ServerName>deliveryparsqc.linkdev.com</ServerName>
+      <ServerPort>443</ServerPort>
+      <TenantId>00000000-0000-0000-0000-000000000000</TenantId>
+      <Timeout />
+      <TimeoutTicks>1200000000</TimeoutTicks>
+      <UseIfd>false</UseIfd>
+      <UseMfa>false</UseMfa>
+      <UserDomain />
+      <UserName>mbsdc\crmadmin</UserName>
+      <UserPassword>Emd4jw/HdvwOG0rZdo9Adg==</UserPassword>
+      <WebApplicationUrl>https://deliveryparsqc.linkdev.com/</WebApplicationUrl>
+    </ConnectionDetail>
+    <ConnectionDetail>
+      <AuthType>ActiveDirectory</AuthType>
+      <AzureAdAppId>00000000-0000-0000-0000-000000000000</AzureAdAppId>
+      <BrowserName>None</BrowserName>
+      <ConnectionId>13ebb36a-6a59-4122-95ee-286de9b4eca5</ConnectionId>
+      <ConnectionName>Delivery UAT</ConnectionName>
+      <HomeRealmUrl />
+      <IsCustomAuth>true</IsCustomAuth>
+      <IsFromSdkLoginCtrl>false</IsFromSdkLoginCtrl>
+      <LastUsedOn>2025-11-02 11:39:45</LastUsedOn>
+      <NewAuthType>AD</NewAuthType>
+      <Organization>DeliveryUAT</Organization>
+      <OrganizationDataServiceUrl>http://tstcrmappfe/DeliveryUAT/XRMServices/2011/OrganizationData.svc</OrganizationDataServiceUrl>
+      <OrganizationFriendlyName>DeliveryUAT</OrganizationFriendlyName>
+      <OrganizationServiceUrl>http://tstcrmappfe/DeliveryUAT/XRMServices/2011/Organization.svc</OrganizationServiceUrl>
+      <OrganizationUrlName>DeliveryUAT</OrganizationUrlName>
+      <OrganizationVersion>9.1.34.5</OrganizationVersion>
+      <OriginalUrl>http://172.16.2.172/deliveryuat/main.aspx</OriginalUrl>
+      <SavePassword>true</SavePassword>
+      <ServerName>tstcrmappfe</ServerName>
+      <ServerPort>80</ServerPort>
+      <TenantId>00000000-0000-0000-0000-000000000000</TenantId>
+      <Timeout />
+      <TimeoutTicks>1200000000</TimeoutTicks>
+      <UseIfd>false</UseIfd>
+      <UseMfa>false</UseMfa>
+      <UserDomain />
+      <UserName>SIPA\CRM.Admin</UserName>
+      <UserPassword>gOSCroLSxh4yMhjTgI1nZVGPcLBoqwzxJkQgfOlQ4XA=</UserPassword>
+      <WebApplicationUrl>http://tstcrmappfe/DeliveryUAT</WebApplicationUrl>
+    </ConnectionDetail>
+    <ConnectionDetail>
+      <AuthType>ActiveDirectory</AuthType>
+      <AzureAdAppId>00000000-0000-0000-0000-000000000000</AzureAdAppId>
+      <BrowserName>None</BrowserName>
+      <ConnectionId>77a752ad-129f-48fd-9ca7-8a6117a6d987</ConnectionId>
+      <ConnectionName>DevCRMAPPFE.Modon</ConnectionName>
+      <HomeRealmUrl />
+      <IsCustomAuth>true</IsCustomAuth>
+      <IsFromSdkLoginCtrl>false</IsFromSdkLoginCtrl>
+      <LastUsedOn>2025-11-02 11:18:48</LastUsedOn>
+      <NewAuthType>AD</NewAuthType>
+      <Organization>Modon</Organization>
+      <OrganizationDataServiceUrl>http://devcrmappfe/Modon/XRMServices/2011/OrganizationData.svc</OrganizationDataServiceUrl>
+      <OrganizationFriendlyName>Modon</OrganizationFriendlyName>
+      <OrganizationServiceUrl>http://devcrmappfe/Modon/XRMServices/2011/Organization.svc</OrganizationServiceUrl>
+      <OrganizationUrlName>Modon</OrganizationUrlName>
+      <OrganizationVersion>9.1.34.5</OrganizationVersion>
+      <OriginalUrl>http://devcrmappfe/modon/main.aspx#660931787</OriginalUrl>
+      <SavePassword>true</SavePassword>
+      <ServerName>devcrmappfe</ServerName>
+      <ServerPort>80</ServerPort>
+      <TenantId>00000000-0000-0000-0000-000000000000</TenantId>
+      <Timeout />
+      <TimeoutTicks>1200000000</TimeoutTicks>
+      <UseIfd>false</UseIfd>
+      <UseMfa>false</UseMfa>
+      <UserDomain />
+      <UserName>SIPA\DevCRM.Admin</UserName>
+      <UserPassword>XFt9ga5FwMaPqdnUDssU9CwtE+OE9rgNvx1GVewkQF8=</UserPassword>
+      <WebApplicationUrl>http://devcrmappfe/Modon</WebApplicationUrl>
+    </ConnectionDetail>
+    <ConnectionDetail>
+      <AuthType>ActiveDirectory</AuthType>
+      <AzureAdAppId>00000000-0000-0000-0000-000000000000</AzureAdAppId>
+      <BrowserName>None</BrowserName>
+      <ConnectionId>9ae650b4-a98e-4a37-a994-89f5f905f72f</ConnectionId>
+      <ConnectionName>MODONQAR5</ConnectionName>
+      <ConnectionString>authtype=AD;url=http://172.16.2.180/ModonQAR5;domain=SIPA;username=crm.admin;password="gOSCroLSxh4yMhjTgI1nZVGPcLBoqwzxJkQgfOlQ4XA="</ConnectionString>
+      <EnvironmentHighlightingInfo>
+        <Color>Yellow</Color>
+        <Text>UAT</Text>
+        <TextColor>Black</TextColor>
+      </EnvironmentHighlightingInfo>
+      <IsCustomAuth>false</IsCustomAuth>
+      <IsFromSdkLoginCtrl>false</IsFromSdkLoginCtrl>
+      <LastUsedOn>2025-09-11 12:27:43</LastUsedOn>
+      <NewAuthType>AD</NewAuthType>
+      <Organization>ModonQAR5</Organization>
+      <OrganizationDataServiceUrl>http://172.16.2.180/ModonQAR5/XRMServices/2011/OrganizationData.svc</OrganizationDataServiceUrl>
+      <OrganizationFriendlyName>ModonQAR5</OrganizationFriendlyName>
+      <OrganizationServiceUrl>http://172.16.2.180/ModonQAR5/XRMServices/2011/Organization.svc</OrganizationServiceUrl>
+      <OrganizationUrlName>ModonQAR5</OrganizationUrlName>
+      <OrganizationVersion>9.1.34.5</OrganizationVersion>
+      <OriginalUrl>http://172.16.2.180/ModonQAR5</OriginalUrl>
+      <SavePassword>false</SavePassword>
+      <ServerName>172.16.2.180</ServerName>
+      <ServerPort>80</ServerPort>
+      <TenantId>00000000-0000-0000-0000-000000000000</TenantId>
+      <Timeout />
+      <TimeoutTicks>1200000000</TimeoutTicks>
+      <UseIfd>false</UseIfd>
+      <UseMfa>false</UseMfa>
+      <UserName>crm.admin</UserName>
+      <WebApplicationUrl>http://172.16.2.180/ModonQAR5</WebApplicationUrl>
+    </ConnectionDetail>
+    <ConnectionDetail>
+      <AuthType>ActiveDirectory</AuthType>
+      <AzureAdAppId>00000000-0000-0000-0000-000000000000</AzureAdAppId>
+      <BrowserName>None</BrowserName>
+      <ConnectionId>c5aad75b-c3c6-4911-af97-145b03498a0d</ConnectionId>
+      <ConnectionName>Modon - Linkdev </ConnectionName>
+      <ConnectionString>authtype=AD;url=https://20.160.92.110/ModonDev;domain=mbsdc;username=crmadmin;password="Emd4jw/HdvwOG0rZdo9Adg=="</ConnectionString>
+      <HomeRealmUrl />
+      <IsCustomAuth>true</IsCustomAuth>
+      <IsFromSdkLoginCtrl>false</IsFromSdkLoginCtrl>
+      <LastUsedOn>2024-08-22 14:11:29</LastUsedOn>
+      <NewAuthType>AD</NewAuthType>
+      <Organization>ModonDev</Organization>
+      <OrganizationDataServiceUrl>https://modondevsupinternalcrm.linkdev.com/ModonDev/XRMServices/2011/OrganizationData.svc</OrganizationDataServiceUrl>
+      <OrganizationFriendlyName>ModonDev</OrganizationFriendlyName>
+      <OrganizationServiceUrl>https://modondevsupinternalcrm.linkdev.com/ModonDev/XRMServices/2011/Organization.svc</OrganizationServiceUrl>
+      <OrganizationUrlName>modondev</OrganizationUrlName>
+      <OrganizationVersion>9.1.11.26</OrganizationVersion>
+      <OriginalUrl>https://20.160.92.110/ModonDev</OriginalUrl>
+      <SavePassword>false</SavePassword>
+      <ServerName>modondevsupinternalcrm.linkdev.com</ServerName>
+      <ServerPort>443</ServerPort>
+      <TenantId>00000000-0000-0000-0000-000000000000</TenantId>
+      <Timeout />
+      <TimeoutTicks>1200000000</TimeoutTicks>
+      <UseIfd>false</UseIfd>
+      <UseMfa>false</UseMfa>
+      <UserDomain />
+      <UserName>crmadmin</UserName>
+      <WebApplicationUrl>https://modondevsupinternalcrm.linkdev.com/ModonDev</WebApplicationUrl>
+    </ConnectionDetail>
+    <ConnectionDetail>
+      <AuthType>ActiveDirectory</AuthType>
+      <AzureAdAppId>00000000-0000-0000-0000-000000000000</AzureAdAppId>
+      <BrowserName>None</BrowserName>
+      <ConnectionId>9a39626c-ee10-42bd-a44d-bf53f04dea59</ConnectionId>
+      <ConnectionName>Modon DEV </ConnectionName>
+      <ConnectionString>authtype=AD;url=http://172.16.2.180/ModonDev;domain=SIPA;username=crm.admin;password="gOSCroLSxh4yMhjTgI1nZVGPcLBoqwzxJkQgfOlQ4XA="</ConnectionString>
+      <IsCustomAuth>false</IsCustomAuth>
+      <IsFromSdkLoginCtrl>false</IsFromSdkLoginCtrl>
+      <LastUsedOn>2025-09-11 12:27:32</LastUsedOn>
+      <NewAuthType>AD</NewAuthType>
+      <Organization>ModonDev</Organization>
+      <OrganizationDataServiceUrl>http://172.16.2.180/ModonDev/XRMServices/2011/OrganizationData.svc</OrganizationDataServiceUrl>
+      <OrganizationFriendlyName>ModonDev</OrganizationFriendlyName>
+      <OrganizationServiceUrl>http://172.16.2.180/ModonDev/XRMServices/2011/Organization.svc</OrganizationServiceUrl>
+      <OrganizationUrlName>ModonDevR4</OrganizationUrlName>
+      <OrganizationVersion>9.1.34.5</OrganizationVersion>
+      <OriginalUrl>http://172.16.2.180/ModonDev</OriginalUrl>
+      <SavePassword>false</SavePassword>
+      <ServerName>172.16.2.180</ServerName>
+      <ServerPort>80</ServerPort>
+      <TenantId>00000000-0000-0000-0000-000000000000</TenantId>
+      <Timeout />
+      <TimeoutTicks>1200000000</TimeoutTicks>
+      <UseIfd>false</UseIfd>
+      <UseMfa>false</UseMfa>
+      <UserName>crm.admin</UserName>
+      <WebApplicationUrl>http://172.16.2.180/ModonDev</WebApplicationUrl>
+    </ConnectionDetail>
+    <ConnectionDetail>
+      <AuthType>ActiveDirectory</AuthType>
+      <AzureAdAppId>51f81489-12ee-4a9e-aaae-a2591f45987d</AzureAdAppId>
+      <BrowserName>None</BrowserName>
+      <ConnectionId>49da4487-763a-4ff8-90e9-2d4746a4434a</ConnectionId>
+      <ConnectionName>Modon-LinkdevR32</ConnectionName>
+      <IsCustomAuth>false</IsCustomAuth>
+      <IsFromSdkLoginCtrl>true</IsFromSdkLoginCtrl>
+      <LastUsedOn>0001-01-01 00:00:00</LastUsedOn>
+      <NewAuthType>AD</NewAuthType>
+      <Organization>ModonQCR32</Organization>
+      <OrganizationDataServiceUrl>https://modonqcr32.linkdev.com/XRMServices/2011/OrganizationData.svc</OrganizationDataServiceUrl>
+      <OrganizationFriendlyName>ModonQCR32</OrganizationFriendlyName>
+      <OrganizationServiceUrl>https://modonqcr32.linkdev.com/XRMServices/2011/Organization.svc</OrganizationServiceUrl>
+      <OrganizationUrlName>ModonQCR32</OrganizationUrlName>
+      <OrganizationVersion>9.1.11.26</OrganizationVersion>
+      <OriginalUrl>https://modonqcr32.linkdev.com/</OriginalUrl>
+      <ReplyUrl>app://58145b91-0c36-4500-8554-080854f2ac97/</ReplyUrl>
+      <SavePassword>false</SavePassword>
+      <ServerName>modonqcr32.linkdev.com</ServerName>
+      <ServerPort>80</ServerPort>
+      <TenantId>00000000-0000-0000-0000-000000000000</TenantId>
+      <Timeout />
+      <TimeoutTicks>1200000000</TimeoutTicks>
+      <UseIfd>false</UseIfd>
+      <UseMfa>false</UseMfa>
+      <UserName />
+      <WebApplicationUrl>https://modonqcr32.linkdev.com/</WebApplicationUrl>
+    </ConnectionDetail>
+    <ConnectionDetail>
+      <AuthType>ActiveDirectory</AuthType>
+      <AzureAdAppId>00000000-0000-0000-0000-000000000000</AzureAdAppId>
+      <BrowserName>None</BrowserName>
+      <ConnectionId>8375b344-07f0-4739-a481-14ef3031a194</ConnectionId>
+      <ConnectionName>ModonQAR32</ConnectionName>
+      <ConnectionString>authtype=AD;url=http://172.16.2.180/ModonQAR32;domain=SIPA;username=crm.admin;password="gOSCroLSxh4yMhjTgI1nZVGPcLBoqwzxJkQgfOlQ4XA="</ConnectionString>
+      <IsCustomAuth>false</IsCustomAuth>
+      <IsFromSdkLoginCtrl>false</IsFromSdkLoginCtrl>
+      <LastUsedOn>2024-07-04 10:29:48</LastUsedOn>
+      <NewAuthType>AD</NewAuthType>
+      <Organization>ModonQAR32</Organization>
+      <OrganizationDataServiceUrl>http://172.16.2.180/ModonQAR32/XRMServices/2011/OrganizationData.svc</OrganizationDataServiceUrl>
+      <OrganizationFriendlyName>ModonQAR32</OrganizationFriendlyName>
+      <OrganizationServiceUrl>http://172.16.2.180/ModonQAR32/XRMServices/2011/Organization.svc</OrganizationServiceUrl>
+      <OrganizationUrlName>ModonQAR32</OrganizationUrlName>
+      <OrganizationVersion>9.1.23.10</OrganizationVersion>
+      <OriginalUrl>http://172.16.2.180/ModonQAR32</OriginalUrl>
+      <SavePassword>false</SavePassword>
+      <ServerName>172.16.2.180</ServerName>
+      <ServerPort>80</ServerPort>
+      <TenantId>00000000-0000-0000-0000-000000000000</TenantId>
+      <Timeout />
+      <TimeoutTicks>1200000000</TimeoutTicks>
+      <UseIfd>false</UseIfd>
+      <UseMfa>false</UseMfa>
+      <UserName>crm.admin</UserName>
+      <WebApplicationUrl>http://172.16.2.180/ModonQAR32</WebApplicationUrl>
+    </ConnectionDetail>
+    <ConnectionDetail>
+      <AuthType>ActiveDirectory</AuthType>
+      <AzureAdAppId>00000000-0000-0000-0000-000000000000</AzureAdAppId>
+      <BrowserName>None</BrowserName>
+      <ConnectionId>37d8c20d-a727-40f1-b71d-71d4d983233e</ConnectionId>
+      <ConnectionName>ModonUAT2</ConnectionName>
+      <HomeRealmUrl />
+      <IsCustomAuth>true</IsCustomAuth>
+      <IsFromSdkLoginCtrl>false</IsFromSdkLoginCtrl>
+      <LastUsedOn>2025-11-11 09:30:48</LastUsedOn>
+      <NewAuthType>AD</NewAuthType>
+      <Organization>ModonUAT2</Organization>
+      <OrganizationDataServiceUrl>http://172.16.2.180/ModonUAT2/XRMServices/2011/OrganizationData.svc</OrganizationDataServiceUrl>
+      <OrganizationFriendlyName>ModonUAT2</OrganizationFriendlyName>
+      <OrganizationServiceUrl>http://172.16.2.180/ModonUAT2/XRMServices/2011/Organization.svc</OrganizationServiceUrl>
+      <OrganizationUrlName>ModonUAT2</OrganizationUrlName>
+      <OrganizationVersion>9.1.34.5</OrganizationVersion>
+      <OriginalUrl>http://172.16.2.180/modonuat2/main.aspx</OriginalUrl>
+      <SavePassword>true</SavePassword>
+      <ServerName>172.16.2.180</ServerName>
+      <ServerPort>80</ServerPort>
+      <TenantId>00000000-0000-0000-0000-000000000000</TenantId>
+      <Timeout />
+      <TimeoutTicks>1200000000</TimeoutTicks>
+      <UseIfd>false</UseIfd>
+      <UseMfa>false</UseMfa>
+      <UserDomain />
+      <UserName>SIPA\CRM.Admin</UserName>
+      <UserPassword>gOSCroLSxh4yMhjTgI1nZVGPcLBoqwzxJkQgfOlQ4XA=</UserPassword>
+      <WebApplicationUrl>http://172.16.2.180/ModonUAT2</WebApplicationUrl>
+    </ConnectionDetail>
+    <ConnectionDetail>
+      <AuthType>ActiveDirectory</AuthType>
+      <AzureAdAppId>00000000-0000-0000-0000-000000000000</AzureAdAppId>
+      <BrowserName>None</BrowserName>
+      <ConnectionId>011feb98-bc49-4b72-abfc-3587f506bf7b</ConnectionId>
+      <ConnectionName>P R O D U C T I O N</ConnectionName>
+      <EnvironmentHighlightingInfo>
+        <Color>Red</Color>
+        <Text>PRODUCTION</Text>
+        <TextColor>White</TextColor>
+      </EnvironmentHighlightingInfo>
+      <HomeRealmUrl />
+      <IsCustomAuth>true</IsCustomAuth>
+      <IsFromSdkLoginCtrl>false</IsFromSdkLoginCtrl>
+      <LastUsedOn>2025-11-25 12:35:40</LastUsedOn>
+      <NewAuthType>AD</NewAuthType>
+      <Organization>MyPartner</Organization>
+      <OrganizationDataServiceUrl>https://modcrmint.modon.gov.sa/MyPartner/XRMServices/2011/OrganizationData.svc</OrganizationDataServiceUrl>
+      <OrganizationFriendlyName>MyPartner</OrganizationFriendlyName>
+      <OrganizationServiceUrl>https://modcrmint.modon.gov.sa/MyPartner/XRMServices/2011/Organization.svc</OrganizationServiceUrl>
+      <OrganizationUrlName>mypartner</OrganizationUrlName>
+      <OrganizationVersion>9.1.23.10</OrganizationVersion>
+      <OriginalUrl>https://modcrmint.modon.gov.sa/mypartner/main.aspx</OriginalUrl>
+      <SavePassword>true</SavePassword>
+      <ServerName>modcrmint.modon.gov.sa</ServerName>
+      <ServerPort>443</ServerPort>
+      <TenantId>00000000-0000-0000-0000-000000000000</TenantId>
+      <Timeout />
+      <TimeoutTicks>1200000000</TimeoutTicks>
+      <UseIfd>false</UseIfd>
+      <UseMfa>false</UseMfa>
+      <UserDomain />
+      <UserName>sipa\PRDCRM.Admin</UserName>
+      <UserPassword>fiNYhbxgjzt+maDPq8Lrt86tkh57fjUHVzex68furijPmrHhhJZ0hbBe7UMismPvRT/9FtEPVE8OTEDqq7OEhA==</UserPassword>
+      <WebApplicationUrl>https://modcrmint.modon.gov.sa/MyPartner</WebApplicationUrl>
+    </ConnectionDetail>
+    <ConnectionDetail>
+      <AuthType>ActiveDirectory</AuthType>
+      <AzureAdAppId>00000000-0000-0000-0000-000000000000</AzureAdAppId>
+      <BrowserName>None</BrowserName>
+      <ConnectionId>6d64239b-dd9e-4ca5-88a9-c56a1a62ee7a</ConnectionId>
+      <ConnectionName>Pre Prod</ConnectionName>
+      <ConnectionString>authtype=AD;url=http://172.16.2.180/ModonPreProd;domain=SIPA;username=crm.admin;password="gOSCroLSxh4yMhjTgI1nZVGPcLBoqwzxJkQgfOlQ4XA="</ConnectionString>
+      <IsCustomAuth>false</IsCustomAuth>
+      <IsFromSdkLoginCtrl>false</IsFromSdkLoginCtrl>
+      <LastUsedOn>2026-10-19 12:21:27</LastUsedOn>
+      <NewAuthType>AD</NewAuthType>
+      <Organization>ModonPreProd</Organization>
+      <OrganizationDataServiceUrl>http://172.16.2.180/ModonPreProd/XRMServices/2011/OrganizationData.svc</OrganizationDataServiceUrl>
+      <OrganizationFriendlyName>ModonPreProd</OrganizationFriendlyName>
+      <OrganizationServiceUrl>http://172.16.2.180/ModonPreProd/XRMServices/2011/Organization.svc</OrganizationServiceUrl>
+      <OrganizationUrlName>ModonPreProduction</OrganizationUrlName>
+      <OrganizationVersion>9.1.41.7</OrganizationVersion>
+      <OriginalUrl>http://172.16.2.180/ModonPreProd</OriginalUrl>
+      <SavePassword>false</SavePassword>
+      <ServerName>172.16.2.180</ServerName>
+      <ServerPort>80</ServerPort>
+      <TenantId>00000000-0000-0000-0000-000000000000</TenantId>
+      <Timeout />
+      <TimeoutTicks>1200000000</TimeoutTicks>
+      <UseIfd>false</UseIfd>
+      <UseMfa>false</UseMfa>
+      <UserName>crm.admin</UserName>
+      <WebApplicationUrl>http://172.16.2.180/ModonPreProd</WebApplicationUrl>
+    </ConnectionDetail>
+  </Connections>
+  <IsReadOnly>false</IsReadOnly>
+  <Name>Default</Name>
+  <UseCustomProxy>false</UseCustomProxy>
+  <UseDefaultCredentials>false</UseDefaultCredentials>
+  <UseDetailsView>false</UseDetailsView>
+  <UseInternetExplorerProxy>true</UseInternetExplorerProxy>
+  <UseMruDisplay>false</UseMruDisplay>
+</CrmConnections>
