@@ -1,0 +1,438 @@
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient Error: 2 : Unable to login to Dynamics CRM, Error was : 
+Data[0] = "The provided uri did not return any Service Endpoints!
+{0}"
+Data[1] = ""
+Source	: Microsoft.Xrm.Sdk
+Method	: .ctor
+Date	: 8/27/2025
+Time	: 10:40:52 AM
+Error	: Data[0] = "The provided uri did not return any Service Endpoints!
+{0}"
+Data[1] = ""
+Stack Trace	: at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1..ctor(Uri serviceUri, Boolean checkForSecondary)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceConfiguration..ctor(Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateManagement[TService](Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateManagement[TService](Uri serviceUri)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.CreateAndAuthenticateProxy[T](IServiceManagement`1 servicecfg, Uri ServiceUri, Uri homeRealm, ClientCredentials userCredentials, ClientCredentials deviceCredentials, String LogString, CrmLogEntry logSink)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.ConnectAndInitCrmOrgService(OrganizationDetail orgdata, Boolean IsOnPrem, Uri homeRealmUri)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.DoDirectLogin(Boolean IsOnPrem)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.InitCRM2011Service()
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient Error: 2 : Unable to Login to Dynamics CRM
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient Error: 2 : Unable to Login to Dynamics CRM
+Source	: Not Provided
+Method	: Not Provided
+Date	: 8/27/2025
+Time	: 10:40:52 AM
+Error	: Unable to Login to Dynamics CRM
+Stack Trace	: Not Provided
+======================================================================================================================
+
+CrmSvcUtil Error: 2 : Exiting program with exit code 2 due to exception : System.Exception: Connection to Dataverse is not established. Aborting process.
+   at Microsoft.Crm.Services.Utility.SdkMetadataProviderService.LoadMetadata(IServiceProvider service)
+   at DLaB.CrmSvcUtilExtensions.BaseMetadataProviderService.LoadMetadataInternal(IServiceProvider serviceProvider)
+   at DLaB.CrmSvcUtilExtensions.BaseMetadataProviderService.LoadMetadata(IServiceProvider serviceProvider)
+   at Microsoft.Crm.Services.Utility.CrmSvcUtil.Run()
+   at Microsoft.Crm.Services.Utility.CrmSvcUtil.Main(String[] args)
+CrmSvcUtil Error: 2 : ===== DETAIL ======
+CrmSvcUtil Error: 2 : Source	: CrmSvcUtil
+Method	: LoadMetadata
+Date	: 10:40:52 AM
+Time	: 8/27/2025
+Error	: Connection to Dataverse is not established. Aborting process.
+Stack Trace	: at Microsoft.Crm.Services.Utility.SdkMetadataProviderService.LoadMetadata(IServiceProvider service)
+   at DLaB.CrmSvcUtilExtensions.BaseMetadataProviderService.LoadMetadataInternal(IServiceProvider serviceProvider)
+   at DLaB.CrmSvcUtilExtensions.BaseMetadataProviderService.LoadMetadata(IServiceProvider serviceProvider)
+   at Microsoft.Crm.Services.Utility.CrmSvcUtil.Run()
+   at Microsoft.Crm.Services.Utility.CrmSvcUtil.Main(String[] args)
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.CrmConnectControl Error: 2 : Error Message: Exception logged by the CRM Connector control:
+Source	: Not Provided
+Method	: Not Provided
+Date	: 8/27/2025
+Time	: 10:41:55 AM
+Error	: A CDS server name is required.
+Parameter name: CrmServerName
+Stack Trace	: Not Provided
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.CrmConnectControl Error: 2 : Error Message: Exception logged by the CRM Connector control:
+Source	: Not Provided
+Method	: Not Provided
+Date	: 8/27/2025
+Time	: 10:42:00 AM
+Error	: A CDS server name is required.
+Parameter name: CrmServerName
+Stack Trace	: Not Provided
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.CrmConnectControl Error: 2 : Error Message: Exception logged by the CRM Connector control:
+Source	: Not Provided
+Method	: Not Provided
+Date	: 8/27/2025
+Time	: 10:42:04 AM
+Error	: A CDS server name is required.
+Parameter name: CrmServerName
+Stack Trace	: Not Provided
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.CrmConnectControl Error: 2 : Error Message: Exception logged by the CRM Connector control:
+Source	: Microsoft.Xrm.Sdk
+Method	: .ctor
+Date	: 8/27/2025
+Time	: 10:42:28 AM
+Error	: Value cannot be null.
+Parameter name: serviceConfiguration.CurrentServiceEndpoint
+Stack Trace	: at Microsoft.Xrm.Sdk.Client.ServiceProxy`1..ctor(IServiceConfiguration`1 serviceConfiguration, SecurityTokenResponse securityTokenResponse)
+   at Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy..ctor(IServiceManagement`1 serviceManagement, SecurityTokenResponse securityTokenResponse)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.CreateAndAuthenticateProxy[T](IServiceManagement`1 servicecfg, Uri ServiceUri, Uri homeRealm, ClientCredentials userCredentials, ClientCredentials deviceCredentials, String LogString, CrmLogEntry logSink)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.DiscoverOrganizations(Uri discoveryServiceUri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials, CrmLogEntry logSink)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.DiscoverOrganizations(Uri discoveryServiceUri, Uri homeRealmUri, NetworkCredential networkCredential, CrmLogEntry logSink)
+   at Microsoft.Xrm.Tooling.Connector.CrmServiceClient.DiscoverOrganizations(Uri discoveryServiceUri, Uri homeRealmUri, NetworkCredential networkCredential)
+   at Microsoft.Xrm.Tooling.CrmConnectControl.CrmConnectionManager.ValidateServerConnection(CrmOrgByServer selectedOrg)
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.CrmConnectControl Error: 2 : Error Message: Can't connect to Microsoft Common Data Service - .
+Source	: Microsoft.Xrm.Sdk
+Method	: .ctor
+Date	: 8/27/2025
+Time	: 10:42:28 AM
+Error	: Value cannot be null.
+Parameter name: serviceConfiguration.CurrentServiceEndpoint
+Stack Trace	: at Microsoft.Xrm.Sdk.Client.ServiceProxy`1..ctor(IServiceConfiguration`1 serviceConfiguration, SecurityTokenResponse securityTokenResponse)
+   at Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy..ctor(IServiceManagement`1 serviceManagement, SecurityTokenResponse securityTokenResponse)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.CreateAndAuthenticateProxy[T](IServiceManagement`1 servicecfg, Uri ServiceUri, Uri homeRealm, ClientCredentials userCredentials, ClientCredentials deviceCredentials, String LogString, CrmLogEntry logSink)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.DiscoverOrganizations(Uri discoveryServiceUri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials, CrmLogEntry logSink)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.DiscoverOrganizations(Uri discoveryServiceUri, Uri homeRealmUri, NetworkCredential networkCredential, CrmLogEntry logSink)
+   at Microsoft.Xrm.Tooling.Connector.CrmServiceClient.DiscoverOrganizations(Uri discoveryServiceUri, Uri homeRealmUri, NetworkCredential networkCredential)
+   at Microsoft.Xrm.Tooling.CrmConnectControl.CrmConnectionManager.ValidateServerConnection(CrmOrgByServer selectedOrg)
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.CrmConnectControl Error: 2 : Error Message: Exception logged by the CRM Connector control:
+Source	: Microsoft.Xrm.Sdk
+Method	: .ctor
+Date	: 8/27/2025
+Time	: 10:42:37 AM
+Error	: Value cannot be null.
+Parameter name: serviceConfiguration.CurrentServiceEndpoint
+Stack Trace	: at Microsoft.Xrm.Sdk.Client.ServiceProxy`1..ctor(IServiceConfiguration`1 serviceConfiguration, SecurityTokenResponse securityTokenResponse)
+   at Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy..ctor(IServiceManagement`1 serviceManagement, SecurityTokenResponse securityTokenResponse)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.CreateAndAuthenticateProxy[T](IServiceManagement`1 servicecfg, Uri ServiceUri, Uri homeRealm, ClientCredentials userCredentials, ClientCredentials deviceCredentials, String LogString, CrmLogEntry logSink)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.DiscoverOrganizations(Uri discoveryServiceUri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials, CrmLogEntry logSink)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.DiscoverOrganizations(Uri discoveryServiceUri, Uri homeRealmUri, NetworkCredential networkCredential, CrmLogEntry logSink)
+   at Microsoft.Xrm.Tooling.Connector.CrmServiceClient.DiscoverOrganizations(Uri discoveryServiceUri, Uri homeRealmUri, NetworkCredential networkCredential)
+   at Microsoft.Xrm.Tooling.CrmConnectControl.CrmConnectionManager.ValidateServerConnection(CrmOrgByServer selectedOrg)
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.CrmConnectControl Error: 2 : Error Message: Can't connect to Microsoft Common Data Service - .
+Source	: Microsoft.Xrm.Sdk
+Method	: .ctor
+Date	: 8/27/2025
+Time	: 10:42:37 AM
+Error	: Value cannot be null.
+Parameter name: serviceConfiguration.CurrentServiceEndpoint
+Stack Trace	: at Microsoft.Xrm.Sdk.Client.ServiceProxy`1..ctor(IServiceConfiguration`1 serviceConfiguration, SecurityTokenResponse securityTokenResponse)
+   at Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy..ctor(IServiceManagement`1 serviceManagement, SecurityTokenResponse securityTokenResponse)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.CreateAndAuthenticateProxy[T](IServiceManagement`1 servicecfg, Uri ServiceUri, Uri homeRealm, ClientCredentials userCredentials, ClientCredentials deviceCredentials, String LogString, CrmLogEntry logSink)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.DiscoverOrganizations(Uri discoveryServiceUri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials, CrmLogEntry logSink)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.DiscoverOrganizations(Uri discoveryServiceUri, Uri homeRealmUri, NetworkCredential networkCredential, CrmLogEntry logSink)
+   at Microsoft.Xrm.Tooling.Connector.CrmServiceClient.DiscoverOrganizations(Uri discoveryServiceUri, Uri homeRealmUri, NetworkCredential networkCredential)
+   at Microsoft.Xrm.Tooling.CrmConnectControl.CrmConnectionManager.ValidateServerConnection(CrmOrgByServer selectedOrg)
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient Error: 2 : ************ MessageSecurityException - RetrieveAllEntities : Execute (RetrieveAllEntities) request to CRM from IOrganizationService |=> The security timestamp is stale because its expiration time ('2025-08-27T07:48:27.234Z') is in the past. Current time is '2025-08-27T07:56:14.600Z' and allowed clock skew is '00:05:00'.
+Source	: mscorlib
+Method	: HandleReturnMessage
+Date	: 8/27/2025
+Time	: 10:56:14 AM
+Error	: The security timestamp is stale because its expiration time ('2025-08-27T07:48:27.234Z') is in the past. Current time is '2025-08-27T07:56:14.600Z' and allowed clock skew is '00:05:00'.
+Stack Trace	: Server stack trace: 
+   at System.ServiceModel.Security.SecurityTimestamp.ValidateFreshness(TimeSpan timeToLive, TimeSpan allowedClockSkew)
+   at System.ServiceModel.Security.SecurityTimestamp.ValidateRangeAndFreshness(TimeSpan timeToLive, TimeSpan allowedClockSkew)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.ReadTimestamp(XmlDictionaryReader reader)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.ExecuteFullPass(XmlDictionaryReader reader)
+   at System.ServiceModel.Security.StrictModeSecurityHeaderElementInferenceEngine.ExecuteProcessingPasses(ReceiveSecurityHeader securityHeader, XmlDictionaryReader reader)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.Process(TimeSpan timeout, ChannelBinding channelBinding, ExtendedProtectionPolicy extendedProtectionPolicy)
+   at System.ServiceModel.Security.TransportSecurityProtocol.VerifyIncomingMessageCore(Message& message, TimeSpan timeout)
+   at System.ServiceModel.Security.TransportSecurityProtocol.VerifyIncomingMessage(Message& message, TimeSpan timeout)
+   at System.ServiceModel.Security.SecurityProtocol.VerifyIncomingMessage(Message& message, TimeSpan timeout, SecurityProtocolCorrelationState[] correlationStates)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.ProcessReply(Message reply, SecurityProtocolCorrelationState correlationState, TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Microsoft.Xrm.Sdk.IOrganizationService.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.ExecuteCore(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Tooling.Connector.CrmServiceClient.CrmCommand_Execute(OrganizationRequest req, String errorStringCheck)
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient Error: 2 : [TerminalFailure] Failed to Execute Command - RetrieveAllEntities : RequestID=ed259bc5-da00-4634-aa68-165fee3169ad : Execute (RetrieveAllEntities) request to CRM from IOrganizationService duration=00:13:07.9843220 ExceptionMessage = The security timestamp is stale because its expiration time ('2025-08-27T07:48:27.234Z') is in the past. Current time is '2025-08-27T07:56:14.600Z' and allowed clock skew is '00:05:00'.
+Source	: mscorlib
+Method	: HandleReturnMessage
+Date	: 8/27/2025
+Time	: 10:56:14 AM
+Error	: The security timestamp is stale because its expiration time ('2025-08-27T07:48:27.234Z') is in the past. Current time is '2025-08-27T07:56:14.600Z' and allowed clock skew is '00:05:00'.
+Stack Trace	: Server stack trace: 
+   at System.ServiceModel.Security.SecurityTimestamp.ValidateFreshness(TimeSpan timeToLive, TimeSpan allowedClockSkew)
+   at System.ServiceModel.Security.SecurityTimestamp.ValidateRangeAndFreshness(TimeSpan timeToLive, TimeSpan allowedClockSkew)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.ReadTimestamp(XmlDictionaryReader reader)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.ExecuteFullPass(XmlDictionaryReader reader)
+   at System.ServiceModel.Security.StrictModeSecurityHeaderElementInferenceEngine.ExecuteProcessingPasses(ReceiveSecurityHeader securityHeader, XmlDictionaryReader reader)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.Process(TimeSpan timeout, ChannelBinding channelBinding, ExtendedProtectionPolicy extendedProtectionPolicy)
+   at System.ServiceModel.Security.TransportSecurityProtocol.VerifyIncomingMessageCore(Message& message, TimeSpan timeout)
+   at System.ServiceModel.Security.TransportSecurityProtocol.VerifyIncomingMessage(Message& message, TimeSpan timeout)
+   at System.ServiceModel.Security.SecurityProtocol.VerifyIncomingMessage(Message& message, TimeSpan timeout, SecurityProtocolCorrelationState[] correlationStates)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.ProcessReply(Message reply, SecurityProtocolCorrelationState correlationState, TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Microsoft.Xrm.Sdk.IOrganizationService.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.ExecuteCore(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Tooling.Connector.CrmServiceClient.CrmCommand_Execute(OrganizationRequest req, String errorStringCheck)
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient Error: 2 : Unable to login to Dynamics CRM, Error was : 
+Data[0] = "The provided uri did not return any Service Endpoints!
+{0}"
+Data[1] = ""
+Source	: Microsoft.Xrm.Sdk
+Method	: .ctor
+Date	: 8/27/2025
+Time	: 11:17:43 AM
+Error	: Data[0] = "The provided uri did not return any Service Endpoints!
+{0}"
+Data[1] = ""
+Stack Trace	: at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1..ctor(Uri serviceUri, Boolean checkForSecondary)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceConfiguration..ctor(Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateManagement[TService](Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateManagement[TService](Uri serviceUri)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.CreateAndAuthenticateProxy[T](IServiceManagement`1 servicecfg, Uri ServiceUri, Uri homeRealm, ClientCredentials userCredentials, ClientCredentials deviceCredentials, String LogString, CrmLogEntry logSink)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.ConnectAndInitCrmOrgService(OrganizationDetail orgdata, Boolean IsOnPrem, Uri homeRealmUri)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.DoDirectLogin(Boolean IsOnPrem)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.InitCRM2011Service()
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient Error: 2 : Unable to Login to Dynamics CRM
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient Error: 2 : Unable to Login to Dynamics CRM
+Source	: Not Provided
+Method	: Not Provided
+Date	: 8/27/2025
+Time	: 11:17:43 AM
+Error	: Unable to Login to Dynamics CRM
+Stack Trace	: Not Provided
+======================================================================================================================
+
+CrmSvcUtil Error: 2 : Exiting program with exit code 2 due to exception : System.Exception: Connection to Dataverse is not established. Aborting process.
+   at Microsoft.Crm.Services.Utility.SdkMetadataProviderService.LoadMetadata(IServiceProvider service)
+   at DLaB.CrmSvcUtilExtensions.BaseMetadataProviderService.LoadMetadataInternal(IServiceProvider serviceProvider)
+   at DLaB.CrmSvcUtilExtensions.BaseMetadataProviderService.LoadMetadata(IServiceProvider serviceProvider)
+   at Microsoft.Crm.Services.Utility.CrmSvcUtil.Run()
+   at Microsoft.Crm.Services.Utility.CrmSvcUtil.Main(String[] args)
+CrmSvcUtil Error: 2 : ===== DETAIL ======
+CrmSvcUtil Error: 2 : Source	: CrmSvcUtil
+Method	: LoadMetadata
+Date	: 11:17:43 AM
+Time	: 8/27/2025
+Error	: Connection to Dataverse is not established. Aborting process.
+Stack Trace	: at Microsoft.Crm.Services.Utility.SdkMetadataProviderService.LoadMetadata(IServiceProvider service)
+   at DLaB.CrmSvcUtilExtensions.BaseMetadataProviderService.LoadMetadataInternal(IServiceProvider serviceProvider)
+   at DLaB.CrmSvcUtilExtensions.BaseMetadataProviderService.LoadMetadata(IServiceProvider serviceProvider)
+   at Microsoft.Crm.Services.Utility.CrmSvcUtil.Run()
+   at Microsoft.Crm.Services.Utility.CrmSvcUtil.Main(String[] args)
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient Error: 2 : ************ MessageSecurityException - RetrieveAllEntities : Execute (RetrieveAllEntities) request to CRM from IOrganizationService |=> The security timestamp is stale because its expiration time ('2025-08-27T08:23:51.566Z') is in the past. Current time is '2025-08-27T08:31:30.360Z' and allowed clock skew is '00:05:00'.
+Source	: mscorlib
+Method	: HandleReturnMessage
+Date	: 8/27/2025
+Time	: 11:31:30 AM
+Error	: The security timestamp is stale because its expiration time ('2025-08-27T08:23:51.566Z') is in the past. Current time is '2025-08-27T08:31:30.360Z' and allowed clock skew is '00:05:00'.
+Stack Trace	: Server stack trace: 
+   at System.ServiceModel.Security.SecurityTimestamp.ValidateFreshness(TimeSpan timeToLive, TimeSpan allowedClockSkew)
+   at System.ServiceModel.Security.SecurityTimestamp.ValidateRangeAndFreshness(TimeSpan timeToLive, TimeSpan allowedClockSkew)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.ReadTimestamp(XmlDictionaryReader reader)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.ExecuteFullPass(XmlDictionaryReader reader)
+   at System.ServiceModel.Security.StrictModeSecurityHeaderElementInferenceEngine.ExecuteProcessingPasses(ReceiveSecurityHeader securityHeader, XmlDictionaryReader reader)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.Process(TimeSpan timeout, ChannelBinding channelBinding, ExtendedProtectionPolicy extendedProtectionPolicy)
+   at System.ServiceModel.Security.TransportSecurityProtocol.VerifyIncomingMessageCore(Message& message, TimeSpan timeout)
+   at System.ServiceModel.Security.TransportSecurityProtocol.VerifyIncomingMessage(Message& message, TimeSpan timeout)
+   at System.ServiceModel.Security.SecurityProtocol.VerifyIncomingMessage(Message& message, TimeSpan timeout, SecurityProtocolCorrelationState[] correlationStates)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.ProcessReply(Message reply, SecurityProtocolCorrelationState correlationState, TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Microsoft.Xrm.Sdk.IOrganizationService.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.ExecuteCore(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Tooling.Connector.CrmServiceClient.CrmCommand_Execute(OrganizationRequest req, String errorStringCheck)
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient Error: 2 : [TerminalFailure] Failed to Execute Command - RetrieveAllEntities : RequestID=fb05b859-1c0d-47f8-94df-624ff83894ff : Execute (RetrieveAllEntities) request to CRM from IOrganizationService duration=00:13:00.2114747 ExceptionMessage = The security timestamp is stale because its expiration time ('2025-08-27T08:23:51.566Z') is in the past. Current time is '2025-08-27T08:31:30.360Z' and allowed clock skew is '00:05:00'.
+Source	: mscorlib
+Method	: HandleReturnMessage
+Date	: 8/27/2025
+Time	: 11:31:30 AM
+Error	: The security timestamp is stale because its expiration time ('2025-08-27T08:23:51.566Z') is in the past. Current time is '2025-08-27T08:31:30.360Z' and allowed clock skew is '00:05:00'.
+Stack Trace	: Server stack trace: 
+   at System.ServiceModel.Security.SecurityTimestamp.ValidateFreshness(TimeSpan timeToLive, TimeSpan allowedClockSkew)
+   at System.ServiceModel.Security.SecurityTimestamp.ValidateRangeAndFreshness(TimeSpan timeToLive, TimeSpan allowedClockSkew)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.ReadTimestamp(XmlDictionaryReader reader)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.ExecuteFullPass(XmlDictionaryReader reader)
+   at System.ServiceModel.Security.StrictModeSecurityHeaderElementInferenceEngine.ExecuteProcessingPasses(ReceiveSecurityHeader securityHeader, XmlDictionaryReader reader)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.Process(TimeSpan timeout, ChannelBinding channelBinding, ExtendedProtectionPolicy extendedProtectionPolicy)
+   at System.ServiceModel.Security.TransportSecurityProtocol.VerifyIncomingMessageCore(Message& message, TimeSpan timeout)
+   at System.ServiceModel.Security.TransportSecurityProtocol.VerifyIncomingMessage(Message& message, TimeSpan timeout)
+   at System.ServiceModel.Security.SecurityProtocol.VerifyIncomingMessage(Message& message, TimeSpan timeout, SecurityProtocolCorrelationState[] correlationStates)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.ProcessReply(Message reply, SecurityProtocolCorrelationState correlationState, TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Microsoft.Xrm.Sdk.IOrganizationService.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.ExecuteCore(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Tooling.Connector.CrmServiceClient.CrmCommand_Execute(OrganizationRequest req, String errorStringCheck)
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient Error: 2 : Unable to login to Dynamics CRM, Error was : 
+Data[0] = "The provided uri did not return any Service Endpoints!
+{0}"
+Data[1] = ""
+Source	: Microsoft.Xrm.Sdk
+Method	: .ctor
+Date	: 8/27/2025
+Time	: 11:44:32 AM
+Error	: Data[0] = "The provided uri did not return any Service Endpoints!
+{0}"
+Data[1] = ""
+Stack Trace	: at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1..ctor(Uri serviceUri, Boolean checkForSecondary)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceConfiguration..ctor(Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateManagement[TService](Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateManagement[TService](Uri serviceUri)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.CreateAndAuthenticateProxy[T](IServiceManagement`1 servicecfg, Uri ServiceUri, Uri homeRealm, ClientCredentials userCredentials, ClientCredentials deviceCredentials, String LogString, CrmLogEntry logSink)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.ConnectAndInitCrmOrgService(OrganizationDetail orgdata, Boolean IsOnPrem, Uri homeRealmUri)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.DoDirectLogin(Boolean IsOnPrem)
+   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.InitCRM2011Service()
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient Error: 2 : Unable to Login to Dynamics CRM
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient Error: 2 : Unable to Login to Dynamics CRM
+Source	: Not Provided
+Method	: Not Provided
+Date	: 8/27/2025
+Time	: 11:44:32 AM
+Error	: Unable to Login to Dynamics CRM
+Stack Trace	: Not Provided
+======================================================================================================================
+
+CrmSvcUtil Error: 2 : Exiting program with exit code 2 due to exception : System.Exception: Connection to Dataverse is not established. Aborting process.
+   at Microsoft.Crm.Services.Utility.SdkMetadataProviderService.LoadMetadata(IServiceProvider service)
+   at DLaB.CrmSvcUtilExtensions.BaseMetadataProviderService.LoadMetadataInternal(IServiceProvider serviceProvider)
+   at DLaB.CrmSvcUtilExtensions.Entity.MetadataProviderService.LoadMetadataInternal(IServiceProvider serviceProvider)
+   at DLaB.CrmSvcUtilExtensions.BaseMetadataProviderService.LoadMetadata(IServiceProvider serviceProvider)
+   at Microsoft.Crm.Services.Utility.CrmSvcUtil.Run()
+   at Microsoft.Crm.Services.Utility.CrmSvcUtil.Main(String[] args)
+CrmSvcUtil Error: 2 : ===== DETAIL ======
+CrmSvcUtil Error: 2 : Source	: CrmSvcUtil
+Method	: LoadMetadata
+Date	: 11:44:32 AM
+Time	: 8/27/2025
+Error	: Connection to Dataverse is not established. Aborting process.
+Stack Trace	: at Microsoft.Crm.Services.Utility.SdkMetadataProviderService.LoadMetadata(IServiceProvider service)
+   at DLaB.CrmSvcUtilExtensions.BaseMetadataProviderService.LoadMetadataInternal(IServiceProvider serviceProvider)
+   at DLaB.CrmSvcUtilExtensions.Entity.MetadataProviderService.LoadMetadataInternal(IServiceProvider serviceProvider)
+   at DLaB.CrmSvcUtilExtensions.BaseMetadataProviderService.LoadMetadata(IServiceProvider serviceProvider)
+   at Microsoft.Crm.Services.Utility.CrmSvcUtil.Run()
+   at Microsoft.Crm.Services.Utility.CrmSvcUtil.Main(String[] args)
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient Error: 2 : ************ MessageSecurityException - RetrieveAllEntities : Execute (RetrieveAllEntities) request to CRM from IOrganizationService |=> The security timestamp is stale because its expiration time ('2025-08-27T08:50:18.621Z') is in the past. Current time is '2025-08-27T08:56:17.739Z' and allowed clock skew is '00:05:00'.
+Source	: mscorlib
+Method	: HandleReturnMessage
+Date	: 8/27/2025
+Time	: 11:56:17 AM
+Error	: The security timestamp is stale because its expiration time ('2025-08-27T08:50:18.621Z') is in the past. Current time is '2025-08-27T08:56:17.739Z' and allowed clock skew is '00:05:00'.
+Stack Trace	: Server stack trace: 
+   at System.ServiceModel.Security.SecurityTimestamp.ValidateFreshness(TimeSpan timeToLive, TimeSpan allowedClockSkew)
+   at System.ServiceModel.Security.SecurityTimestamp.ValidateRangeAndFreshness(TimeSpan timeToLive, TimeSpan allowedClockSkew)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.ReadTimestamp(XmlDictionaryReader reader)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.ExecuteFullPass(XmlDictionaryReader reader)
+   at System.ServiceModel.Security.StrictModeSecurityHeaderElementInferenceEngine.ExecuteProcessingPasses(ReceiveSecurityHeader securityHeader, XmlDictionaryReader reader)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.Process(TimeSpan timeout, ChannelBinding channelBinding, ExtendedProtectionPolicy extendedProtectionPolicy)
+   at System.ServiceModel.Security.TransportSecurityProtocol.VerifyIncomingMessageCore(Message& message, TimeSpan timeout)
+   at System.ServiceModel.Security.TransportSecurityProtocol.VerifyIncomingMessage(Message& message, TimeSpan timeout)
+   at System.ServiceModel.Security.SecurityProtocol.VerifyIncomingMessage(Message& message, TimeSpan timeout, SecurityProtocolCorrelationState[] correlationStates)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.ProcessReply(Message reply, SecurityProtocolCorrelationState correlationState, TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Microsoft.Xrm.Sdk.IOrganizationService.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.ExecuteCore(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Tooling.Connector.CrmServiceClient.CrmCommand_Execute(OrganizationRequest req, String errorStringCheck)
+======================================================================================================================
+
+Microsoft.Xrm.Tooling.Connector.CrmServiceClient Error: 2 : [TerminalFailure] Failed to Execute Command - RetrieveAllEntities : RequestID=55c7d2a4-5f0e-4692-8b22-13e1cc7a2859 : Execute (RetrieveAllEntities) request to CRM from IOrganizationService duration=00:11:20.3597922 ExceptionMessage = The security timestamp is stale because its expiration time ('2025-08-27T08:50:18.621Z') is in the past. Current time is '2025-08-27T08:56:17.739Z' and allowed clock skew is '00:05:00'.
+Source	: mscorlib
+Method	: HandleReturnMessage
+Date	: 8/27/2025
+Time	: 11:56:17 AM
+Error	: The security timestamp is stale because its expiration time ('2025-08-27T08:50:18.621Z') is in the past. Current time is '2025-08-27T08:56:17.739Z' and allowed clock skew is '00:05:00'.
+Stack Trace	: Server stack trace: 
+   at System.ServiceModel.Security.SecurityTimestamp.ValidateFreshness(TimeSpan timeToLive, TimeSpan allowedClockSkew)
+   at System.ServiceModel.Security.SecurityTimestamp.ValidateRangeAndFreshness(TimeSpan timeToLive, TimeSpan allowedClockSkew)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.ReadTimestamp(XmlDictionaryReader reader)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.ExecuteFullPass(XmlDictionaryReader reader)
+   at System.ServiceModel.Security.StrictModeSecurityHeaderElementInferenceEngine.ExecuteProcessingPasses(ReceiveSecurityHeader securityHeader, XmlDictionaryReader reader)
+   at System.ServiceModel.Security.ReceiveSecurityHeader.Process(TimeSpan timeout, ChannelBinding channelBinding, ExtendedProtectionPolicy extendedProtectionPolicy)
+   at System.ServiceModel.Security.TransportSecurityProtocol.VerifyIncomingMessageCore(Message& message, TimeSpan timeout)
+   at System.ServiceModel.Security.TransportSecurityProtocol.VerifyIncomingMessage(Message& message, TimeSpan timeout)
+   at System.ServiceModel.Security.SecurityProtocol.VerifyIncomingMessage(Message& message, TimeSpan timeout, SecurityProtocolCorrelationState[] correlationStates)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.ProcessReply(Message reply, SecurityProtocolCorrelationState correlationState, TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Microsoft.Xrm.Sdk.IOrganizationService.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.ExecuteCore(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Tooling.Connector.CrmServiceClient.CrmCommand_Execute(OrganizationRequest req, String errorStringCheck)
+======================================================================================================================
+
